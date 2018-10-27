@@ -1,4 +1,4 @@
-function sumOfOther(array) {
+const sumOfOther = function sumOfOther(array) {
   if (!Array.isArray(array)) {
     throw TypeError('Argument must be array !!!');
   }
@@ -10,6 +10,6 @@ function sumOfOther(array) {
   }
   return array.map((it1, ind1) => (array.filter((it2, ind2) => ((ind1 === ind2) ? 0 : 1))
     .reduce((a, b) => a + b)));
-}
+};
 
-module.exports.sumOfOther = sumOfOther;
+exports.sumOfOther = sumOfOther;
