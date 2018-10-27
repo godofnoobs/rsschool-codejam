@@ -4,7 +4,8 @@
   "description": "CodeJam-3 CoreJS",
   "main": "index.js",
   "scripts": {
-    "test1": "mocha tests/test_sum_of_other.js"
+    "test1": "mocha tests/test_sum_of_other.js",
+    "test2": "mocha tests/test_make.js"
   },
   "repository": {
     "type": "git",
