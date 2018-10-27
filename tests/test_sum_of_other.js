@@ -2,7 +2,7 @@
 
 const expect = require('expect');
 const assert = require('assert');
-const { sumOfOther } = require('../../src/sum_of_other');
+const { sumOfOther } = require('../src/sum_of_other');
 
 
 describe('Function sumOfOther(array)', () => {
