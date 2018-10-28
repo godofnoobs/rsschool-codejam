@@ -19,12 +19,3 @@ const recursion = function recursion(tree, deep = 0, result = []) {
 };
 
 exports.recursion = recursion;
-
-
-// let tree1 = { value: 100, left: { value: 90, left: { value: 70 }, right: { value: 99 } }, right: { value: 120, left: { value: 110 }, right: {value: 130 } } };
-
-// let tree2 = { value: 100, left: { value: 90 }, right: { value: 130 } };
-
-// let tree3 = {};
-
-// console.log(recursion(tree1));

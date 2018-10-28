@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test1": "mocha tests/test_sum_of_other.js",
-    "test2": "mocha tests/test_make.js"
+    "test2": "mocha tests/test_make.js",
+    "test3": "mocha tests/test_recursion.js"
   },
   "repository": {
     "type": "git",
